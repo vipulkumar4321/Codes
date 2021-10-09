@@ -16,6 +16,7 @@ class Solution {
                 sum -= salary[i];
                 sum += min;
                 min = salary[i];
+                //For first time min = Integer.MIN_VALUE which is -1 more than MAX_VALUE
                 if(i == 0)
                     sum +=1;
             }            
