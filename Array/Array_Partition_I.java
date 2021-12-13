@@ -10,4 +10,10 @@ class Solution {
         
         return sum;
     }
+
+    public static void main(String[] args) {
+      int[] arr = {1,2,3,4};
+      int x = arrayPairSum(arr);
+      System.out.println(x);
+    }
 }
